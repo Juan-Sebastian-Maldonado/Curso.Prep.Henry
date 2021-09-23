@@ -1,0 +1,5 @@
+ A la palabra for la usas cuando queres repetir varias veces una accion.
+ && es como decir "y" . Por ejemplo: Tengo hambre Y sed.
+ || es como decir "o" . Por ejemplo: Mañana llovera O no llovera.
+ ! es como el "no" cuando negamos algo. Por ejemplo: Hoy NO llovió.
+

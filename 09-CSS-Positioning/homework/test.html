@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Aca testeando
+        </title>
+        <style>
+            body {
+                color: darkmagenta;
+                background-color: black;
+            }
+            #fijoid {
+                position : fixed;
+            }
+            #fijoid2 {
+                position : fixed;
+                top : 0;
+                rigth : 0;
+            }
+            div {
+                display : flex;
+                justify-content: space-between;
+                align-items: space-between ;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <p>Este elemento ocupa toda la linea</p>
+        <stan>Este elemento ocupa el espacio para este texto</stan><stan>Este tambien y por eso aparece aca al costado</stan>
+        <p style = "display : none">Este elemento ni aparece ni ocupa espacio porque esta display en none, seria mas facil borrar esta linea directamente jaja</p>
+        <p id = "fijoid">Hola, estoy aca fijo porque tengo position fixed jaja :/</p>
+        <stan id = "fijoid2">Estoy fijo y aca porque tengo top 0 y rigth 0 jaja :/</stan>
+        <div>
+            <stan>A</stan>
+            <stan>B</stan>
+            <stan>C</stan>
+            <stan>D</stan>
+        </div>
+    </body>
+</html>
